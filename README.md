@@ -3,12 +3,12 @@ This system can detect fires on video frames. I have used HSV algorithm to track
 
 ## This system has three main features-
 1. Detect fire in video frame.
-2. Turn on alarm sound 
+2. Turn on alarm sound .
 3. Send emails to fire engine services.
 
 # Create .env file
 ```
-  EMAIL=<Your Email>
+  EMAIL=<Your Email Address>
   PASSWORD=<Your Password>
 ```
 
@@ -19,7 +19,7 @@ This system can detect fires on video frames. I have used HSV algorithm to track
   python -m venv ./env
 ```
 
-## Activate Virtual environment
+## Activate Virtual environment (for windows)
 ```
   ./env/Scripts/activate
 ```
